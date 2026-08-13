@@ -4,9 +4,11 @@ import { Hero } from './components/Hero';
 import { RecruiterDeck } from './components/RecruiterDeck';
 import { ExperienceTimeline } from './components/ExperienceTimeline';
 import { SkillsMatrix } from './components/SkillsMatrix';
+import { Gallery } from './components/Gallery';
 import { ContactForm } from './components/ContactForm';
 import { PdfResumeModal } from './components/PdfResumeModal';
 import { Footer } from './components/Footer';
+import { ARTWORKS } from './data/portfolioData';
 
 export default function App() {
   const [isPdfModalOpen, setIsPdfModalOpen] = useState<boolean>(false);
@@ -45,6 +47,9 @@ export default function App() {
 
         {/* Skills, Tools, Education & Interests Matrix */}
         <SkillsMatrix />
+
+        {/* Art Gallery Section */}
+        <Gallery artworks={ARTWORKS} />
 
         {/* Integrated Contact Form */}
         <ContactForm />

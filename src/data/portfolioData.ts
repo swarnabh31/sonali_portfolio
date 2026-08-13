@@ -212,3 +212,11 @@ export const EDUCATION: EducationItem[] = [
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [];
 
+export const ARTWORKS: Array<{
+  id: string;
+  title: string;
+  category: 'animations' | 'pngs' | ' sketches';
+  image: string;
+  description?: string;
+}> = [];
+
