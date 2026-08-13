@@ -11,12 +11,9 @@ export interface Artwork {
 
 interface GalleryProps {
   artworks: Artwork[];
-  featuredVideo?: string;
-  featuredVideoTitle?: string;
-  featuredVideoDescription?: string;
 }
 
-export function Gallery({ artworks, featuredVideo, featuredVideoTitle, featuredVideoDescription }: GalleryProps) {
+export function Gallery({ artworks }: GalleryProps) {
   const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
 
   return (

@@ -45,9 +45,6 @@ export default function App() {
         {/* Professional Portfolio Showcase */}
         <Gallery 
           artworks={ARTWORKS as Artwork[]} 
-          featuredVideo="/src/assets/videos/Sonali.mp4" 
-          featuredVideoTitle="Sonali Portfolio Video"
-          featuredVideoDescription="Professional highlight video - click play to watch"
         />
 
         {/* Professional Experience & Leadership Timeline */}

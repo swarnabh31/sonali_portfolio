@@ -1,5 +1,7 @@
 import { PortfolioProject, ExperienceItem, EducationItem, SkillGroup } from '../types';
 
+const videoPath = new URL('../assets/videos/Sonali.mp4', import.meta.url).href;
+
 export const PROFILE_DATA = {
   name: 'SONALI BASAK',
   tagline: 'Senior Game Artist | Concept Artist | Art Lead',
@@ -98,7 +100,7 @@ export const ARTWORKS: Array<{
     id: 'sonali-portfolio-video',
     title: 'Sonali Portfolio Highlight Video',
     category: 'video',
-    video: '/src/assets/videos/Sonali.mp4',
+    video: videoPath,
     description: 'Click play to watch the professional portfolio showcase'
   }
 ];
