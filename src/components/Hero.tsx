@@ -24,9 +24,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPdfResume, onNavigate }) => {
             <Award className="w-3.5 h-3.5 mr-1.5 text-[#fbbf24]" />
             Live Mobile Games Art Lead
           </span>
-          <span className="inline-flex items-center px-3 py-1 rounded text-xs font-bold uppercase tracking-wider bg-[#1e293b] border border-slate-700 text-slate-300">
-            16 Years Exp (12+ Gaming)
-          </span>
+           <span className="inline-flex items-center px-3 py-1 rounded text-xs font-bold uppercase tracking-wider bg-[#1e293b] border border-slate-700 text-slate-300">
+             15 Years Exp (12+ Gaming)
+           </span>
           <span className="inline-flex items-center px-3 py-1 rounded text-xs font-bold uppercase tracking-wider bg-[#1e293b] border border-slate-700 text-slate-300">
             B.F.A. Gold Medalist
           </span>
@@ -39,13 +39,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPdfResume, onNavigate }) => {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-[#84cc16] uppercase tracking-tighter leading-none">
                 {PROFILE_DATA.name}
               </h1>
-              <p className="mt-2 text-xl sm:text-2xl font-bold text-[#fbbf24]">
-                {PROFILE_DATA.tagline}
-              </p>
-            </div>
+            <p className="mt-2 text-xl sm:text-2xl font-bold text-[#fbbf24]">
+              {PROFILE_DATA.tagline}
+            </p>
+          </div>
 
-            <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl">
-              Specializing in <span className="text-white font-bold">2D game art, character design, concept development, 2D sprite sheets for animation, After Effects motion graphics, and production art</span>. Experienced in leading multidisciplinary art teams for top-charting live mobile titles and hands-on IC asset delivery at <span className="text-[#84cc16] font-bold">Electronic Arts (EA)</span> and <span className="text-[#fbbf24] font-bold">Glu Mobile</span>.
+          <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl">
+          Creative Game Artist with 15 years of experience, including 12+ years in gaming, specializing in concept art, character design, 2D animation, illustration and visual development. Experienced in both hands-on art production and leading teams across live mobile games.
             </p>
 
             {/* Quick Contact & Verification Pills */}
@@ -100,15 +100,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPdfResume, onNavigate }) => {
                   <ShieldCheck className="w-4 h-4 text-[#84cc16]" />
                   Studio Experience Summary
                 </span>
-                <span className="text-xs font-mono text-[#fbbf24]">16 YRS TOTAL</span>
+                <span className="text-xs font-mono text-[#fbbf24]">15 YRS TOTAL</span>
               </div>
 
               {/* Grid Metrics */}
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-[#0f172a] p-3.5 rounded-xl border border-slate-700/80">
-                  <span className="text-3xl font-black text-[#84cc16] block">16</span>
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Years Experience</span>
-                </div>
+                 <div className="bg-[#0f172a] p-3.5 rounded-xl border border-slate-700/80">
+                   <span className="text-3xl font-black text-[#84cc16] block">15</span>
+                   <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Years Experience</span>
+                 </div>
                 <div className="bg-[#0f172a] p-3.5 rounded-xl border border-slate-700/80">
                   <span className="text-3xl font-black text-[#fbbf24] block">12+</span>
                   <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Gaming Industry Yrs</span>

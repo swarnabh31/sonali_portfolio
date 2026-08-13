@@ -20,7 +20,7 @@ export const ExperienceTimeline: React.FC = () => {
             </div>
             <h2 className="text-3xl font-black text-[#84cc16] uppercase tracking-tight">Professional Work Experience</h2>
             <p className="text-slate-400 text-xs font-bold uppercase tracking-wider mt-1 max-w-2xl">
-              16 years of professional track record, including 12+ years in mobile game studios delivering AAA live game content, character design, and team art direction.
+              15 years across games and animation, including 12+ years in mobile gaming delivering character design, 2D animation, visual development, and team leadership.
             </p>
           </div>
         </div>

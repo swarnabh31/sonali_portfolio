@@ -40,6 +40,8 @@ export interface ExperienceItem {
   tools: string[];
 }
 
+export const EXPERIENCE_SUMMARY_MAX_LENGTH = 280;
+
 export interface EducationItem {
   degree: string;
   institution: string;

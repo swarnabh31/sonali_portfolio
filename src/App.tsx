@@ -4,7 +4,7 @@ import { Hero } from './components/Hero';
 import { RecruiterDeck } from './components/RecruiterDeck';
 import { ExperienceTimeline } from './components/ExperienceTimeline';
 import { SkillsMatrix } from './components/SkillsMatrix';
-import { Gallery } from './components/Gallery';
+import { Gallery, Artwork } from './components/Gallery';
 import { ContactForm } from './components/ContactForm';
 import { PdfResumeModal } from './components/PdfResumeModal';
 import { Footer } from './components/Footer';
@@ -42,14 +42,21 @@ export default function App() {
           onNavigateContact={() => handleNavigate('contact')}
         />
 
+        {/* Professional Portfolio Showcase */}
+        <Gallery 
+          artworks={ARTWORKS as Artwork[]} 
+          featuredVideo="/src/assets/videos/Sonali.mp4" 
+          featuredVideoTitle="Sonali Portfolio Video"
+          featuredVideoDescription="Professional highlight video - click play to watch"
+        />
+
         {/* Professional Experience & Leadership Timeline */}
         <ExperienceTimeline />
 
         {/* Skills, Tools, Education & Interests Matrix */}
         <SkillsMatrix />
 
-        {/* Art Gallery Section */}
-        <Gallery artworks={ARTWORKS} />
+
 
         {/* Integrated Contact Form */}
         <ContactForm />
