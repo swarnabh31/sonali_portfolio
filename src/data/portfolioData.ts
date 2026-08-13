@@ -42,7 +42,11 @@ export const EXPERIENCES: ExperienceItem[] = [
     location: 'India',
     isCurrent: true,
     summary: 'Create character, plant, avatar, gameplay and deco concepts. Develop animatics, sprite sheets, portraits and 2D animation assets. Collaborate with Design, Art and Engineering teams on production and integration.',
-    keyContributions: [],
+    keyContributions: [
+      'Lead character design and visual development for PvZ3',
+      'Develop concept art for plants, characters, zombies, and gameplay elements',
+      'Create animatics and sprite sheets for game asset integration'
+    ],
     shippedTitles: ['Plants vs. Zombies 3'],
     tools: ['Photoshop', 'Adobe Animate', 'After Effects']
   },
@@ -54,21 +58,75 @@ export const EXPERIENCES: ExperienceItem[] = [
     location: 'India',
     isCurrent: false,
     summary: 'Led and contributed to character, plant, event and marketing art. Created concepts, illustrations and animation for live-game content. Provided art direction, reviews, mentoring and production support.',
-    keyContributions: [],
+    keyContributions: [
+      'Art Lead for Plants vs Zombies 2 - team management and direction',
+      'Art direction and mentoring for junior artists',
+      'Created concept art for characters, events, and marketing materials'
+    ],
     shippedTitles: ['Plants vs. Zombies 2'],
     tools: ['Photoshop', 'Adobe Animate', 'After Effects']
   },
   {
-    id: 'previous-experience',
-    company: 'PREVIOUS EXPERIENCE',
-    role: 'Concept Artist | Senior 2D Artist | 2D Animator / Art Lead',
-    duration: '15 years across games and animation',
+    id: 'glu-mobile',
+    company: 'GLU MOBILE INDIA',
+    role: 'Senior Concept Artist / Team Lead',
+    duration: '2016 – Present (Prior)',
     location: 'India',
     isCurrent: false,
-    summary: '15 years across games and animation, working on character design, visual development, illustration, storyboarding and 2D animation. Worked across mobile games, animated series and entertainment projects.',
-    keyContributions: [],
-    shippedTitles: [],
+    summary: 'Spearheaded character design, prop design, and team leadership across popular live mobile game titles.',
+    keyContributions: [
+      'Team Lead for Covet Fashion - Design art assets and event banners',
+      'Character level design and Animation for Quizz Up',
+      'Characters, Props, Event Banners Design for Ultimate Chef'
+    ],
+    shippedTitles: ['Covet Fashion', 'Quizz Up', 'Ultimate Chef'],
     tools: ['Photoshop', 'Adobe Animate', 'After Effects']
+  },
+  {
+    id: 'purple-talk',
+    company: 'PURPLE TALK INDIA PVT LTD',
+    role: 'Senior 2D Artist',
+    duration: '2015 – 2016',
+    location: 'India',
+    isCurrent: false,
+    summary: 'Delivered character designs, background art, and full asset production for Cartoon Network mobile games.',
+    keyContributions: [
+      'Adventure Time - Wizard Battle Game: Characters, Background and Animation',
+      'Cartoon Network - Mini Games: All Art assets for 20 Hyper casual games'
+    ],
+    shippedTitles: ['Adventure Time: Wizard Battle Game', 'Cartoon Network 20 Hyper Casual Games'],
+    tools: ['Photoshop', 'Flash/Adobe Animate', 'Sketchbook Pro', 'After Effects']
+  },
+  {
+    id: 'rudra-masta',
+    company: 'RUDRA MASTA (Animation Studio)',
+    role: 'Classical Animator and Pre-Production Artist',
+    duration: '2013 – 2015',
+    location: 'India',
+    isCurrent: false,
+    summary: 'Pre-production art, layout design, and traditional animation for internationally recognized animated series and films.',
+    keyContributions: [
+      'Bat Pat Animation series - Layout and Traditional Animation',
+      'Lilo and Stitch Anime Movie - Traditional Animation',
+      'Lego Friends - Concept Art, Storyboard and layout'
+    ],
+    shippedTitles: ['Bat Pat Series', 'Lilo and Stitch Anime', 'Lego Friends'],
+    tools: ['After Effects', 'Toonboom Storyboard', 'Photoshop']
+  },
+  {
+    id: 'emboss-animation',
+    company: 'EMBOSS ANIMATION STUDIO',
+    role: '2D Animator / Supervisor',
+    duration: '2011 – 2013',
+    location: 'India',
+    isCurrent: false,
+    summary: 'Supervised 2D animation production pipelines, character layouts, and e-learning series development.',
+    keyContributions: [
+      'Supervised animation team across 2D animation series and e-learning projects',
+      'Character design, layout generation, and production supervision'
+    ],
+    shippedTitles: ['2D Educational & Animated Series'],
+    tools: ['Flash/Adobe Animate', 'Photoshop', 'After Effects']
   }
 ];
 
