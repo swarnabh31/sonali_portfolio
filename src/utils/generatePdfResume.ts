@@ -201,7 +201,7 @@ export function generatePdfResume(theme: PdfTheme = 'light'): void {
   doc.setTextColor(textColor[0], textColor[1], textColor[2]);
 
   const addLines = [
-    `Total Experience: 16 Years (12+ Years in Gaming Industry)`,
+    `Total Experience: 15 Years (12+ Years in Gaming Industry)`,
     `Specialization: 2D Game Art, Concept Art, Character Design, Animation & Rigging`,
     `Languages: ${PROFILE_DATA.languages.join(', ')}`,
   ];

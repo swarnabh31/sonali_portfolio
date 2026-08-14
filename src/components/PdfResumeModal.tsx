@@ -373,7 +373,7 @@ Total Experience: ${PROFILE_DATA.totalExperienceYears} Years (12+ Years Gaming)
                 ADDITIONAL INFORMATION
               </h2>
               <div className={`text-xs space-y-1 font-medium ${isDark ? 'text-slate-300' : 'text-slate-800 print:text-gray-800'}`}>
-                <p><strong>Total Experience:</strong> 16 years (12+ years in gaming)</p>
+                <p><strong>Total Experience:</strong> 15 years (12+ years in gaming)</p>
                 <p><strong>Specialization:</strong> 2D Game Art | Concept Art | Character Design | Animation</p>
                 <p><strong>Languages:</strong> {PROFILE_DATA.languages.join(', ')}</p>
                 <p><strong>Hobbies:</strong> {PROFILE_DATA.hobbies.join(', ')}</p>
