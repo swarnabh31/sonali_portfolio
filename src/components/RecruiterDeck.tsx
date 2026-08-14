@@ -73,7 +73,7 @@ export const RecruiterDeck: React.FC<RecruiterDeckProps> = ({ onOpenPdfResume, o
 
             <div className="mt-6 pt-4 border-t border-slate-700 flex items-center justify-between text-xs text-slate-400 font-mono">
               <span>Location: {PROFILE_DATA.location}</span>
-              <span className="text-[#84cc16] font-bold">16 YRS EXP</span>
+              <span className="text-[#84cc16] font-bold">15 YRS EXP</span>
             </div>
           </div>
 
